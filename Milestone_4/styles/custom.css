@@ -1,0 +1,39 @@
+<style>
+a {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; /* Optional: Add underline on hover */
+}
+
+p {
+
+}
+
+li {
+
+    margin-top: 6px;
+}
+    
+h1 {
+    color: black;
+}
+
+h2 {
+    color: darkgreen;
+}
+
+/* Hide the cell containing this CSS */
+.hidden-cell {
+    display: none;
+}
+</style>
+<script>
+    // Hide this cell
+    var cell = document.currentScript.closest('.cell');
+    if (cell) {
+        cell.classList.add('hidden-cell');
+    }
+</script>
