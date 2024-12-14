@@ -1,0 +1,33 @@
+name: cs109a_group1
+
+channels:
+- conda-forge
+
+dependencies:
+- aiohttp
+- beautifulsoup4
+- jupyterlab
+- lxml
+- matplotlib
+- networkx
+- nodejs
+- numpy
+- pandas
+- pillow
+- pip
+- psmpy
+- pyarrow
+- python>=3.10
+- requests
+- scipy
+- scikit-learn
+- seaborn
+- selenium
+- statsmodels
+- imbalanced-learn
+- openpyxl
+- pip:
+  - nbopen
+  - otter-grader
+  - jupyterlab-vim
+  - nltk
